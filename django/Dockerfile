@@ -3,10 +3,7 @@
 FROM mrjogo/python
 MAINTAINER Ruddick Lawrence <mrjogo@gmail.com>
 
-# Prevent debconf dialog errors during apt-get
-ENV DEBIAN_FRONTEND noninteractive
-
-RUN apt-get update && apt-get install -y \
+RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y \
   gcc \
   postgresql-client libpq-dev \
   sqlite3 \

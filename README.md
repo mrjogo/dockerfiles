@@ -3,7 +3,7 @@ A collection of common Docker images, customized to my liking and dependent on e
 
 Typical run commands are in a comment at the top of each Dockerfile
 
-##Python
+## Python
 **Base**
 Ubuntu 15.10
 
@@ -27,7 +27,15 @@ Above Python image
 * Psycopg 2
 * Django 1.9.3
 
-##Snapcraft
+## Scrapy
+**Base**
+Above Python image
+
+**pip Installs**
+
+* Scrapy
+
+## Snapcraft
 **Base**
 Ubuntu 15.10
 
