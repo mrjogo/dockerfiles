@@ -34,6 +34,7 @@ Above Python image
 **pip Installs**
 
 * Scrapy
+* Scrapinghub Command Line
 
 ## Snapcraft
 **Base**
