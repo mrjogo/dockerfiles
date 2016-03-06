@@ -12,6 +12,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y \
   libssl-dev \
   && rm -rf /var/lib/apt/lists/*
 
-RUN pip install scrapy shub
+RUN pip install scrapy shub hubstorage
 
 CMD ["scrapy"]
