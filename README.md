@@ -43,3 +43,10 @@ Ubuntu 15.10
 
 **System Installs**
 Snapcraft
+
+## OpenCV
+**Base**
+Ubuntu 15.10
+
+**Source Installs**
+OpenCV 3.1.0 with contrib
