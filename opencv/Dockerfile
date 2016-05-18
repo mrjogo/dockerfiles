@@ -1,5 +1,5 @@
-# xhost + && docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix --device /dev/video0 -e DISPLAY=unix$DISPLAY mrjogo/opencv && xhost -
-FROM ubuntu:15.10
+# xhost + && docker run --rm -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY --device /dev/video0:/dev/video0 mrjogo/opencv && xhost -
+FROM ubuntu:16.04
 MAINTAINER Ruddick Lawrence <mrjogo@gmail.com>
 
 # Install dependencies to build OpenCV

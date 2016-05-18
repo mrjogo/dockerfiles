@@ -1,6 +1,6 @@
 # docker run --rm -it mrjogo/python
 
-FROM ubuntu:15.10
+FROM ubuntu:16.04
 MAINTAINER Ruddick Lawrence <mrjogo@gmail.com>
 
 # Install Python
